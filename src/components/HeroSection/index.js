@@ -20,7 +20,7 @@ const HeroSection = () => {
           <h1>Virtual Banking Made Easy</h1>
           <p>Sign up for a new account today and receive $250 in credit towards your next payment.</p>
           <HeroBtnWrapper>
-            <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+            <Button to="signup" smooth={true} duration={500} spy={true} exact='true' offset={-80} onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
               Get Started {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HeroBtnWrapper>
