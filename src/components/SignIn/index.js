@@ -16,7 +16,7 @@ const SignIn = () => {
               <label htmlFor="for">Password</label>
               <input type="password" required />
               <button type="submit">Continue</button>
-              <spoan>Forgot Password</spoan>
+              <span>Forgot Password</span>
             </Form>
           </FormContent>
         </FormWrap>

@@ -12,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 100vh;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -49,9 +49,7 @@ export const TextWrapper = styled.div`
   padding-top: 0;
   padding-bottom: 3.8rem;
 
-  @media screen and (max-width: 480px) {
-    font-size: 2rem;
-  }
+
 `;
 
 export const Headline = styled.h1`
@@ -60,6 +58,10 @@ export const Headline = styled.h1`
     line-height: 1.1;
     font-weight: 600;
     color: ${({lightText}) => lightText ? '#f7f8fa' : '#010606'};
+
+    @media screen and (max-width: 480px) {
+    font-size: 2rem;
+  }
 `;
 
 export const TopLine = styled.p`
