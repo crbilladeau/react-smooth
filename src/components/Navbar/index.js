@@ -8,7 +8,7 @@ const Navbar = ({toggleSidebar}) => {
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">
-            dolla
+            bitcash
           </NavLogo>
           <MobileIcon onClick={toggleSidebar}>
             <FaBars />

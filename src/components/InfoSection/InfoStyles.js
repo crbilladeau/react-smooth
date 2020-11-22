@@ -49,17 +49,17 @@ export const TextWrapper = styled.div`
   padding-top: 0;
   padding-bottom: 3.8rem;
 
-  h1 {
-    margin-bottom: 1.5rem;
-    font-size: 3rem;
-    line-height: 1.1px;
-    font-weight: 600;
-    color: ${({lightText}) => lightText ? '#f7f8fa' : '#010606'};
-  }
-
   @media screen and (max-width: 480px) {
     font-size: 2rem;
   }
+`;
+
+export const Headline = styled.h1`
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 600;
+    color: ${({lightText}) => lightText ? '#f7f8fa' : '#010606'};
 `;
 
 export const TopLine = styled.p`

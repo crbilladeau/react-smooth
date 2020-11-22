@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonStyles';
-import { BtnWrap, Column1, Column2, ImgWrap, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from './InfoStyles';
+import { BtnWrap, Column1, Column2, Headline, ImgWrap, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from './InfoStyles';
 
 const InfoSection = ({lightBg, imgStart, img, alt, lightText, topLine, headline, id, darkText, description, buttonLabel, primary, dark, dark2}) => {
   return (
@@ -11,7 +11,7 @@ const InfoSection = ({lightBg, imgStart, img, alt, lightText, topLine, headline,
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
-                <h2 lightText={lightText}>{headline}</h2>
+                <Headline lightText={lightText}>{headline}</Headline>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button 
