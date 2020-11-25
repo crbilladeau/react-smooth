@@ -76,7 +76,7 @@ export const ServicesCard = styled.div`
   }
 
   p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: center;
   }
 `;
